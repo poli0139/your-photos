@@ -1,0 +1,13 @@
+.statsContainer {
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    > * {
+      width: 30%;
+      text-align: center;
+    }
+  }
+  border-bottom: solid 1px;
+}
