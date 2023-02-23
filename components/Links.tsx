@@ -2,7 +2,6 @@ import styles from "../styles/links.module.scss";
 import Link from "next/link";
 
 export default function userLinks(props) {
-  console.log(props);
   return (
     <div className={styles.linksContainer}>
       <h4>

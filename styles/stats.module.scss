@@ -2,10 +2,9 @@
   div {
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    margin: auto;
+    flex-wrap: wrap;
+    margin: 0 30%;
     > * {
-      width: 30%;
       text-align: center;
     }
   }

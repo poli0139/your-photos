@@ -20,7 +20,9 @@
   .avatar {
     display: flex;
     align-items: center;
+
     img {
+      border-radius: 100%;
       margin: auto;
       width: 12rem;
       height: auto;
